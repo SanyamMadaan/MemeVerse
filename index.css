@@ -1,0 +1,35 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+h1,h2{
+    color:white;
+}
+
+body{
+    background-color:black;
+}
+.gifs{
+    margin-top:60px auto;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+#heading{
+    text-align:center;
+    font-size:50px;
+    font-family: lobster;
+}
+#images{
+    margin:10px;
+    width:400px;
+    height:250px;
+    border:1px solid white;
+}
+
+ input{
+    padding:10px;
+    height:30px;
+    border-radius:20px;
+    width:250px;
+}
