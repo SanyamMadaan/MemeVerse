@@ -1,35 +1,62 @@
 *{
     font-family: "Poppins", sans-serif;
-}
-
-h1,h2{
-    color:white;
-}
-
-body{
-    background-color:black;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
 }
 .gifs{
-    margin-top:60px auto;
+    margin-top:10px auto;
     display:grid;
-    grid-template-columns: repeat(3,1fr);
+    margin-bottom:15px;
+    grid-template-columns: repeat(4,1fr);
 }
 
-#heading{
+#heading {
+    font-size: 45px;
+    height:80px;
+    margin:0;
+    padding:0px;
+    margin-bottom:40px;
     text-align:center;
-    font-size:50px;
-    font-family: lobster;
+
 }
+
+.search_box{
+    margin-bottom:20px;
+    display:flex;
+    align-items: center;
+}
+
 #images{
-    margin:10px;
-    width:400px;
-    height:250px;
-    border:1px solid white;
+
+    width:350px;
+    height:230px;
+    border:2px solid black;
 }
 
  input{
+    border:2px solid black;
     padding:10px;
-    height:30px;
-    border-radius:20px;
-    width:250px;
+    height:50px;
+    width:280px;
+    margin-left:10px;
+    border-right:none;
+}
+
+#search_btn{
+    cursor:pointer;
+    border:2px solid black;
+    padding:10px;
+    height:50px;
+    width:40px;
+    text-align: center;
+}
+
+
+#result_type{
+    margin-bottom:20px;
+    color:black;
+    margin-left:12px;
+    font-size:35px;
+    font-family:lobster;
 }
