@@ -22,7 +22,7 @@ container.innerHTML="";
 async function searchedmemes() {
   let find = searchbox.value;
   if (find) {
-    const url = `http://api.giphy.com/v1/gifs/search?q=${find}&api_key=${apiKey}&limit=50`;
+    const url = `http://api.giphy.com/v1/gifs/search?q=${find}&api_key=${apiKey}&limit=40`;
     const response = await fetch(url);
     const data = await response.json();
     if (data.data.length === 0) { // Check if data.data is empty
